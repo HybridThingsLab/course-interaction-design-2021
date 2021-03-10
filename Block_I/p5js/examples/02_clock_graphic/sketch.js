@@ -3,25 +3,22 @@
 let w = 600
 let h = 600;
 
-let seconds, milliseconds;
-
 function setup() {
 
 	  createCanvas(w,h);
-    rectMode(CENTER);
+    angleMode(DEGREES);
 }
 
 function draw() {
   
   background(255);
   
-  // get seconds and milliseconds
-  let date = new Date();
-  seconds = date.getSeconds();
-  milliseconds = date.getMilliseconds();
+  milliseconds = int(millis()%60000);
+  seconds = int(milliseconds / 1000);
+  //seconds = milliseconds / 1000;
 
-  s = map(seconds,0,60,0,TWO_PI) - HALF_PI;
-  m = map(milliseconds,0,1000,0,TWO_PI) - HALF_PI;
+  s = map(seconds,0,60,0,360);
+  m = map(milliseconds,0,1000,0,360);
  
   // draw background
   fill(0);
@@ -34,7 +31,7 @@ function draw() {
   rotate(m);
   stroke(0,255,0);
   strokeWeight(5);
-  line(0,0,80,80);
+  line(0,0,0,-80);
   pop();
 
   // seconds
@@ -43,7 +40,7 @@ function draw() {
   rotate(s);
   stroke(255,0,0);
   strokeWeight(10);
-  line(0,0,80,80);
+  line(0,0,0,-80);
   pop();
 
 }
