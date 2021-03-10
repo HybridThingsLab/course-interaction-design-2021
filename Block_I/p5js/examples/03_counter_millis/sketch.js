@@ -16,8 +16,6 @@ function setup() {
   // init custom fonts
   textFont(customFont);
 
-  offsetMillis = 0;
-
 }
 
 // draw
