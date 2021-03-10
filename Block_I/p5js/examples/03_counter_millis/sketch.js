@@ -1,6 +1,10 @@
+// globals
+let customFont;
+
 // preload
 function preload() {
   // load data here
+  customFont = loadFont('data/IBM_Plex_Mono/IBMPlexMono-Regular.ttf');
 }
 
 // setup
@@ -8,6 +12,9 @@ function setup() {
 
   // init canvas
   canvas = createCanvas(600, 600).parent('canvas');
+
+  // init custom fonts
+  textFont(customFont);
 
 }
 
