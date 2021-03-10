@@ -1,6 +1,6 @@
 // globals
 let customFont;
-let seconds;
+let seconds, milliseconds;
 
 // preload
 function preload() {
@@ -34,7 +34,7 @@ function draw() {
   let seconds_two_digits = String(seconds).padStart(2, "0");
   let milliseconds_three_digits = String(milliseconds).padStart(3, "0");
 
-  // show seconds
+  // show seconds and milliseconds
   noStroke();
   fill(255);
   textAlign(CENTER, CENTER);
