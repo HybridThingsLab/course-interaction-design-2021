@@ -3,7 +3,6 @@
 
 // globals
 let customFont;
-let offsetMillis;
 let w1, w2, w3;
 
 // preload
@@ -32,11 +31,8 @@ function draw() {
   background(0);
 
   // get seconds and milliseconds
-  milliseconds = millis() - offsetMillis;
-  if (milliseconds >= 60000) {
-    offsetMillis = millis();
-  }
-  seconds = int(milliseconds / 1000.0);
+  milliseconds = int(millis() % 60000);
+  seconds = int(milliseconds / 1000);
 
   // easings
   w1 = map(milliseconds, 0, 60000, 0, width);

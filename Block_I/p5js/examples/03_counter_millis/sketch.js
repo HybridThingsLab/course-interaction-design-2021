@@ -1,6 +1,5 @@
 // globals
 let customFont;
-let offsetMillis;
 
 // preload
 function preload() {
@@ -28,11 +27,8 @@ function draw() {
   background(0);
 
   // get seconds and milliseconds
-  milliseconds = millis() - offsetMillis;
-  if (milliseconds >= 60000) {
-    offsetMillis = millis();
-  }
-  seconds = int(milliseconds / 1000.0);
+  milliseconds = int(millis() % 60000);
+  seconds = int(milliseconds / 1000);
 
   // show seconds and milliseconds
   noStroke();
