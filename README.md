@@ -1,4 +1,4 @@
-# Fundamentals of Interaction Design / Grundlagen Interaktiver Gestaltung IA2
+# Interaction Design Basics / Grundlagen Interaktiver Gestaltung IA2
 summer-term 2021</br>
 University of Applied Sciences Augsburg, Faculty of Design, https://www.hs-augsburg.de/Gestaltung.html
 
