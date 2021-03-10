@@ -2,7 +2,6 @@
 // https: //spicyyoghurt.com/tools/easing-functions
 
 // globals
-let customFont;
 let w1, w2, w3;
 
 // preload
@@ -15,11 +14,6 @@ function setup() {
 
   // init canvas
   canvas = createCanvas(600, 600).parent('canvas');
-
-  // init custom fonts
-  textFont(customFont);
-
-  offsetMillis = 0;
 
 }
 

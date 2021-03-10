@@ -1,6 +1,3 @@
-// globals
-let customFont;
-
 // preload
 function preload() {
   // load data here
@@ -11,11 +8,6 @@ function setup() {
 
   // init canvas
   canvas = createCanvas(600, 600).parent('canvas');
-
-  // init custom fonts
-  textFont(customFont);
-
-  offsetMillis = 0;
 
 }
 
