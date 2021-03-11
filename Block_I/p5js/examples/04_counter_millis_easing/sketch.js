@@ -13,7 +13,7 @@ function preload() {
 function setup() {
 
   // init canvas
-  canvas = createCanvas(600, 600).parent('canvas');
+  canvas = createCanvas(800, 800).parent('canvas');
 
 }
 
