@@ -59,7 +59,7 @@ Whenever we will make a update to the repository, you can pull those changes to 
 * Click "pull"
 
 ### Get going
-* In Visual Studio Code klick the "Files" Icon and navigate to "Block_I > p5js > examples > template"
+* In Visual Studio Code click the "Files" Icon and navigate to "Block_I > p5js > examples > 01_clock_typo"
 
 You will see some files but these are the most important:
 
