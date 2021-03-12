@@ -1,6 +1,6 @@
 // globals
 let customFont;
-let seconds, milliseconds;
+let seconds, milliseconds, millisecondsPerSecond;
 
 // preload
 function preload() {
@@ -26,19 +26,19 @@ function draw() {
   background(0);
 
   // get seconds and milliseconds
-  let date = new Date();
-  seconds = date.getSeconds();
-  milliseconds = date.getMilliseconds();
+  milliseconds = int(millis() % 60000);
+  seconds = int(milliseconds / 1000) % 60000;
+  millisecondsPerSecond = milliseconds % 1000;
 
   // seconds as two digits and milliseconds as three digitis if used for typo
   let seconds_two_digits = String(seconds).padStart(2, "0");
-  let milliseconds_three_digits = String(milliseconds).padStart(3, "0");
+  let milliseconds_three_digits = String(millisecondsPerSecond).padStart(3, "0");
 
   // show seconds and milliseconds
   noStroke();
   fill(255);
   textAlign(CENTER, CENTER);
   textSize(24);
-  text(seconds_two_digits + " " + milliseconds_three_digits, width / 2, height / 2);
+  text(seconds_two_digits + ":" + milliseconds_three_digits, width / 2, height / 2);
 
 }
