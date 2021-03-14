@@ -1,8 +1,6 @@
-// https://p5js.org/examples/input-clock.html
-
-let w = 800
+// globals
+let w = 800;
 let h = 800;
-let seconds, milliseconds;
 
 function setup() {
 
@@ -14,14 +12,16 @@ function draw() {
 
   background(255);
 
-  milliseconds = int(millis() % 60000);
-  seconds = int(milliseconds / 1000);
-  //seconds = milliseconds / 1000;
+  // get milliseconds, seconds, minutes and hours
+  let date = new Date();
+  let milliseconds = date.getMilliseconds();
+  let seconds = date.getSeconds();
 
+  // map values to degree circle
+  let ms = map(milliseconds, 0, 1000, 0, 360);
   let s = map(seconds, 0, 60, 0, 360);
-  let m = map(milliseconds, 0, 1000, 0, 360);
 
-  // draw background
+  // draw background clock
   fill(0);
   noStroke();
   ellipse(w / 2, h / 2, w / 2, w / 2);
@@ -29,10 +29,10 @@ function draw() {
   // milliseconds
   push();
   translate(w / 2, h / 2);
-  rotate(m);
+  rotate(ms);
   stroke(0, 255, 0);
-  strokeWeight(5);
-  line(0, 0, 0, -80);
+  strokeWeight(3);
+  line(0, 0, 0, -180);
   pop();
 
   // seconds
@@ -40,8 +40,8 @@ function draw() {
   translate(w / 2, h / 2);
   rotate(s);
   stroke(255, 0, 0);
-  strokeWeight(10);
-  line(0, 0, 0, -80);
+  strokeWeight(4);
+  line(0, 0, 0, -180);
   pop();
 
 }
