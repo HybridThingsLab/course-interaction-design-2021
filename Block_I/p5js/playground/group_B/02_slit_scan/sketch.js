@@ -49,6 +49,8 @@ function draw() {
 }
 
 function updateScreen() {
+
+  // see also https://editor.p5js.org/codingtrain/sketches/B1L5j8uk4 by Daniel Shiffman
   capture.loadPixels();
   let w = capture.width;
   let h = capture.height;
@@ -57,4 +59,5 @@ function updateScreen() {
   if (x > width) {
     x = 0;
   }
+
 }
