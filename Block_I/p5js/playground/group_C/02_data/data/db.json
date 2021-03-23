@@ -1,0 +1,222 @@
+[
+  {
+    "name": "ICE 618",
+    "type": "ICE",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T00:30",
+    "origin": "München Hbf",
+    "track": "3",
+    "detailsId": "623472%2F214608%2F139810%2F137919%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "ICE 695",
+    "type": "ICE",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T00:59",
+    "origin": "Berlin Gesundbrunnen",
+    "track": "4",
+    "detailsId": "68910%2F30396%2F500484%2F227272%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "ICE 616",
+    "type": "ICE",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T03:55",
+    "origin": "München Hbf",
+    "track": "3",
+    "detailsId": "218862%2F79684%2F512550%2F183321%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "ICE 985",
+    "type": "ICE",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T05:06",
+    "origin": "München-Pasing",
+    "track": "3",
+    "detailsId": "124323%2F51043%2F670372%2F293745%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "ICE 619",
+    "type": "ICE",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T05:30",
+    "origin": "Dortmund Hbf",
+    "track": "4",
+    "detailsId": "608043%2F209523%2F910862%2F252750%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "ICE 614",
+    "type": "ICE",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T05:56",
+    "origin": "München Hbf",
+    "track": "3",
+    "detailsId": "917259%2F312423%2F865176%2F126835%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "IC 2162",
+    "type": "IC",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T06:07",
+    "origin": "München Hbf",
+    "track": "4",
+    "detailsId": "892692%2F300939%2F942784%2F173828%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "IC 2296",
+    "type": "IC",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T06:10",
+    "origin": "München Hbf",
+    "track": "3",
+    "detailsId": "980916%2F331039%2F314444%2F169750%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "ICE 981",
+    "type": "ICE",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T06:18",
+    "origin": "Donauwörth",
+    "track": "4",
+    "detailsId": "789903%2F272895%2F879532%2F176465%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "ICE 699",
+    "type": "ICE",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T06:57",
+    "origin": "Hamburg-Altona",
+    "track": "4",
+    "detailsId": "859020%2F293848%2F969652%2F198486%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "ICE 692",
+    "type": "ICE",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T07:02",
+    "origin": "München Hbf",
+    "track": "3",
+    "detailsId": "504255%2F175463%2F719008%2F191419%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "IC 2087",
+    "type": "IC",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T07:05",
+    "origin": "Nürnberg Hbf",
+    "track": "5",
+    "detailsId": "152436%2F54048%2F991238%2F444807%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "ICE 989",
+    "type": "ICE",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T07:31",
+    "origin": "Nürnberg Hbf",
+    "track": "4",
+    "detailsId": "998703%2F342514%2F588792%2F38505%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "IC 2291",
+    "type": "IC",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T07:40",
+    "origin": "Karlsruhe Hbf",
+    "track": "4",
+    "detailsId": "891867%2F301329%2F188022%2F203278%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "ICE 872",
+    "type": "ICE",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T07:45",
+    "origin": "München Hbf",
+    "track": "3",
+    "detailsId": "676014%2F234036%2F143178%2F153749%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "ICE 612",
+    "type": "ICE",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T08:00",
+    "origin": "München Hbf",
+    "track": "3",
+    "detailsId": "315066%2F111656%2F870068%2F330012%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "IC 2097",
+    "type": "IC",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T08:05",
+    "origin": "Ulm Hbf",
+    "track": "5",
+    "detailsId": "456162%2F155343%2F285694%2F9207%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "ICE 993",
+    "type": "ICE",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T08:40",
+    "origin": "Stuttgart Hbf",
+    "track": "4",
+    "detailsId": "587784%2F205577%2F480542%2F44343%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "ICE 690",
+    "type": "ICE",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T09:00",
+    "origin": "München Hbf",
+    "track": "3",
+    "detailsId": "191874%2F71294%2F838660%2F355372%2F80%3fstation_evaId%3D8000013"
+  },
+  {
+    "name": "ICE 991",
+    "type": "ICE",
+    "boardId": 8000013,
+    "stopId": 8000013,
+    "stopName": "Augsburg Hbf",
+    "dateTime": "2021-03-01T09:02",
+    "origin": "Wiesbaden Hbf",
+    "track": "5",
+    "detailsId": "220779%2F83240%2F895072%2F373943%2F80%3fstation_evaId%3D8000013"
+  }
+]
