@@ -1,9 +1,12 @@
-let w = 800;let h = 800;
+var w = window.innerWidth;
+var h = window.innerHeight;
 
 let clock; // Declare object
 
 function setup() {
-  createCanvas(w, h);
+
+  canvas=createCanvas(w,h);
+
   angleMode(DEGREES);
   // Create object
   clock = new clockCount();
@@ -35,7 +38,7 @@ class clockCount {
     if ( this.s == 60 ) {
          background(0,255,0);
     } else {
-         background(255);
+         background(200);
     }
     if ( this.s > 60 ) { this.s = 1; }
     
@@ -55,4 +58,13 @@ class clockCount {
     pop();
 
   }
+}
+
+// -------------------------------------------- //
+
+function windowResized() {
+  // assigns new values for width and height variables
+  w = window.innerWidth;
+  h = window.innerHeight;  
+  resizeCanvas(w,h);
 }
