@@ -5,7 +5,7 @@ University of Applied Sciences Augsburg, Faculty of Design, https://www.hs-augsb
 teaching stuff: Slawa Gurevich, Christoph Haag, Andreas Muxel, Daniel Rothaug
 
 * [Block I: Visuelle Systeme](https://github.com/HybridThingsLab/course-interaction-design-2021/tree/main/Block_I)
-* Block II: Interaktive Systeme (coming soon...)
+* [Block II: Interaktive Systeme](https://github.com/HybridThingsLab/course-interaction-design-2021/tree/main/Block_II)
 * Block III: Physische Systeme (coming soon...)
 
 ## Setup
