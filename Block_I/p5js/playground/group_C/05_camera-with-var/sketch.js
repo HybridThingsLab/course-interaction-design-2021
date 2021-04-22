@@ -18,6 +18,9 @@ function setup() {
 
   createCanvas(windowWidth, windowHeight);
   frameRate(4); // since we are updating once a second we don't need 60fps
+  colorMode(RGB, 255); // set color mode to RGB
+  noStroke(); // don't stroke the forms
+  fill(127, 255, 0); // set the fill for the indicator
 
   // calculate image sizes
   imgWidth = windowWidth / 6;
@@ -47,11 +50,21 @@ function draw() {
   let row = 0;
   let col = 0;
 
-
   // iterate through all the images
   for (let img of images) {
     if(!!img) { // if there is an image
+      img.loadPixels(); // get all the pixels from the image (initialize the img.pixels array)
+      let pixels = img.pixels; // save the pixels into a variable
+
+      let index = pixels.length / 2; // get the middle most pixel position
+
+      let bVal = brightness(color(pixels[index], pixels[index+1], pixels[index+2])); // get the brightness value of this pixel
+
+      rHeight = map(bVal, 0, 100, 0, imgHeight); // calculate the height the indicator should be
+      rY = map(bVal, 0, 100, imgHeight * (row + 1), imgHeight * row); // calculate the y value of the indicator
+
       image(img, imgWidth * col, imgHeight * row, imgWidth, imgHeight) // draw it on the canvas in col / row
+      rect(imgWidth * col, rY, 20, rHeight); // draw the indicator
     }
 
     col += 1; // increase column by 1

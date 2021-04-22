@@ -34,10 +34,12 @@ function draw() {
  * Function is called when any key is pressed
  */
 function keyPressed(e) {
+  console.log(e);
   e.stopPropagation(); // don't propagate to the window object, otherwise the keydown event is triggered twice
   switch (e.key) {
     case('s'): // if key is 's'
       saveCanvas(canvas, 'screenshot', 'jpg'); // take screenshot
+      break;
     default: // otherwise
       console.log(e.key) // log the pressed key
     /*
